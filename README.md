@@ -27,39 +27,72 @@ Data dictionary - the features in this data set are:
 •	latitude - GPS coordinate
 
 •	wpt_name - Name of the waterpoint if there is one
+
 •	num_private - No information available
+
 •	basin - Geographic water basin
+
 •	subvillage - Geographic location
+
 •	region - Geographic location
+
 •	region_code - Geographic location (coded)
+
 •	district_code - Geographic location (coded)
+
 •	lga - Geographic location
+
 •	ward - Geographic location
+
 •	population - Population around the well
+
 •	public_meeting - True/False
+
 •	recorded_by - Group entering this row of data
+
 •	scheme_management - Who operates the waterpoint
+
 •	scheme_name - Who operates the waterpoint
+
 •	permit - If the waterpoint is permitted
+
 •	construction_year - Year the waterpoint was constructed
+
 •	extraction_type - The kind of extraction the waterpoint uses
+
 •	extraction_type_group - The kind of extraction the waterpoint uses
+
 •	extraction_type_class - The kind of extraction the waterpoint uses
+
 •	management - How the waterpoint is managed
+
 •	management_group - How the waterpoint is managed
+
 •	payment - What the water costs
+
 •	payment_type - What the water costs
+
 •	water_quality - The quality of the water
+
 •	quality_group - The quality of the water
+
 •	quantity - The quantity of water
+
 •	quantity_group - The quantity of water
+
 •	source - The source of the water
+
 •	source_type - The source of the water
+
 •	source_class - The source of the water
+
 •	waterpoint_type - The kind of waterpoint (handpump, communal standpipe, cattle trough etc.)
+
 •	waterpoint_type_group - The kind of waterpoint
 
 Labels (column name: Defective):
 •	yes – the waterpoint is nonfunctional – this is the positive class in this problem
+
 •	no – the waterpoint is functional and there are no repairs needed
+
 If a working waterpoint is wrongly classified as faulty (false positive), the cost involved might include a technician visit and inspection; however, if a non-functional waterpoint is classified as functional (false negative), then there is no action taken, and there is consequently a significant social cost. Hence, there is a much higher penalty for false positives.
