@@ -13,12 +13,19 @@ You have been provided with data collected across various villages in rural Afri
 Data dictionary - the features in this data set are:
 
 •	amount_tsh - Total static head (amount water available to waterpoint)
+
 •	date_recorded - The date the row was entered
+
 •	funder - Who funded the well
+
 •	gps_height - Altitude of the well
+
 •	installer - Organization that installed the well
+
 •	longitude - GPS coordinate
+
 •	latitude - GPS coordinate
+
 •	wpt_name - Name of the waterpoint if there is one
 •	num_private - No information available
 •	basin - Geographic water basin
@@ -56,15 +63,3 @@ Labels (column name: Defective):
 •	yes – the waterpoint is nonfunctional – this is the positive class in this problem
 •	no – the waterpoint is functional and there are no repairs needed
 If a working waterpoint is wrongly classified as faulty (false positive), the cost involved might include a technician visit and inspection; however, if a non-functional waterpoint is classified as functional (false negative), then there is no action taken, and there is consequently a significant social cost. Hence, there is a much higher penalty for false positives.
-
-Your model will be scored as follows:
-Weighted error rate = 0.9 * FNR + 0.1 * FPR,
-where FNR = false negative rate and FPR = false positive rate
- What to submit: 
-1.	Output: You should create a csv in the format given in the example below:
-id	defective
-101	yes
-102	no
-103	no
-104	yes
-105	no
