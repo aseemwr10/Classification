@@ -1,5 +1,6 @@
 # Classification
 Classification Problem - Identify defective waterpoints in developing countries
+
 Water is one of the most basic human needs. Of late, we have been witnessing acute water shortages across countries and it is starting to become a critical problem in modern society. Governments spend millions in their attempt to ensure water availability across cities, towns and villages. Of all the water sources available, one source which stands out in ease of access as well as quality is ground water. In an urban setting, ground water is generally pulled via powerful pumps and stored in tanks. However, in rural areas wells and handpumps are the most accessible options. Governments install hand pumps in villages to provide for the villagers. However, often there are no regular maintenance checks of the pumps; partly due to high operational cost involved in travel and technicians, the maintenance of the hand pumps is generally ignored by the authorities.
 
 In this data challenge, we ask:
@@ -91,6 +92,7 @@ Data dictionary - the features in this data set are:
 •	waterpoint_type_group - The kind of waterpoint
 
 Labels (column name: Defective):
+
 •	yes – the waterpoint is nonfunctional – this is the positive class in this problem
 
 •	no – the waterpoint is functional and there are no repairs needed
