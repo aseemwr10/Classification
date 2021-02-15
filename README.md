@@ -1,13 +1,17 @@
 # Classification
 Classification Problem - Identify defective waterpoints in developing countries
 Water is one of the most basic human needs. Of late, we have been witnessing acute water shortages across countries and it is starting to become a critical problem in modern society. Governments spend millions in their attempt to ensure water availability across cities, towns and villages. Of all the water sources available, one source which stands out in ease of access as well as quality is ground water. In an urban setting, ground water is generally pulled via powerful pumps and stored in tanks. However, in rural areas wells and handpumps are the most accessible options. Governments install hand pumps in villages to provide for the villagers. However, often there are no regular maintenance checks of the pumps; partly due to high operational cost involved in travel and technicians, the maintenance of the hand pumps is generally ignored by the authorities.
+
 In this data challenge, we ask:
 Is there a way we can use predictive modelling techniques to predict whether a given handpump(read waterpoint) is defective? This would greatly help plan visits of technicians to places where problem exists instead of planning to go everywhere. There would be two direct benefits of this: 
 1.	Huge cost savings 
 2.	Early problem detection and resolution
 3.	Most importantly, people won’t have to wait indefinitely for help!
+
 You have been provided with data collected across various villages in rural Africa. A lot of information has been captured related to the location, usage and attributes of the installed waterpoints. Given the features of an installed waterpoint, your goal is to classify a given water point as defective or not. Note that waterpoint includes hand pump, stand pipe, cattle trough  etc.
+
 Data dictionary - the features in this data set are:
+
 •	amount_tsh - Total static head (amount water available to waterpoint)
 •	date_recorded - The date the row was entered
 •	funder - Who funded the well
